@@ -1,0 +1,31 @@
+[ 2023-10-08 22:28:23,366 ] 13 root -  vectorization paths are created
+[ 2023-10-08 22:28:23,401 ] 10 root - data ingest started!
+[ 2023-10-08 22:28:23,401 ] 15 root - paths are created for data
+[ 2023-10-08 22:28:23,562 ] 187 werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[ 2023-10-08 22:28:23,563 ] 187 werkzeug - [33mPress CTRL+C to quit[0m
+[ 2023-10-08 22:28:23,564 ] 187 werkzeug -  * Restarting with stat
+[ 2023-10-08 22:28:24,672 ] 13 root -  vectorization paths are created
+[ 2023-10-08 22:28:24,697 ] 10 root - data ingest started!
+[ 2023-10-08 22:28:24,697 ] 15 root - paths are created for data
+[ 2023-10-08 22:28:24,795 ] 187 werkzeug -  * Debugger is active!
+[ 2023-10-08 22:28:24,797 ] 187 werkzeug -  * Debugger PIN: 714-932-503
+[ 2023-10-08 22:28:37,654 ] 187 werkzeug - 127.0.0.1 - - [08/Oct/2023 22:28:37] "GET / HTTP/1.1" 200 -
+[ 2023-10-08 22:28:37,747 ] 187 werkzeug - 127.0.0.1 - - [08/Oct/2023 22:28:37] "GET /static/style.css HTTP/1.1" 200 -
+[ 2023-10-08 22:29:01,911 ] 20 root - data paths created !
+[ 2023-10-08 22:29:01,911 ] 24 root - enter the data ingestion part 2
+[ 2023-10-08 22:29:02,030 ] 26 root - data has read sucessfuly
+[ 2023-10-08 22:29:02,032 ] 41 root - dataframe had created sucessfuly
+[ 2023-10-08 22:29:02,033 ] 43 root - directory has created
+[ 2023-10-08 22:29:02,325 ] 47 root - data ingest sucessfully
+[ 2023-10-08 22:29:02,328 ] 19 root - entered data transformation
+[ 2023-10-08 22:29:02,352 ] 21 root - data read sucessfully for transformation!
+[ 2023-10-08 22:29:02,357 ] 23 root - dropped duplicates
+[ 2023-10-08 22:29:02,361 ] 25 root - data transformed sucess
+[ 2023-10-08 22:29:02,404 ] 28 root - vectorization is sucessfully created
+[ 2023-10-08 22:29:02,405 ] 31 root - pickle file is created
+[ 2023-10-08 22:29:02,534 ] 35 root - recommend process1 started
+[ 2023-10-08 22:29:02,534 ] 36 root - pickle load!
+[ 2023-10-08 22:29:02,534 ] 37 root - pickle loading process sucessful
+[ 2023-10-08 22:29:06,051 ] 187 werkzeug - 127.0.0.1 - - [08/Oct/2023 22:29:06] "POST / HTTP/1.1" 200 -
+[ 2023-10-08 22:29:06,082 ] 187 werkzeug - 127.0.0.1 - - [08/Oct/2023 22:29:06] "GET /static/style2.css HTTP/1.1" 200 -

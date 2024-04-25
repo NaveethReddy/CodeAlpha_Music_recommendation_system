@@ -1,0 +1,115 @@
+[ 2023-09-01 09:36:19,682 ] 13 root -  vectorization paths are created
+[ 2023-09-01 09:36:19,785 ] 10 root - data ingest started!
+[ 2023-09-01 09:36:19,785 ] 15 root - paths are created for data
+[ 2023-09-01 09:36:20,150 ] 186 werkzeug - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[ 2023-09-01 09:36:20,150 ] 186 werkzeug - [33mPress CTRL+C to quit[0m
+[ 2023-09-01 09:36:20,154 ] 186 werkzeug -  * Restarting with stat
+[ 2023-09-01 09:36:21,742 ] 13 root -  vectorization paths are created
+[ 2023-09-01 09:36:21,769 ] 10 root - data ingest started!
+[ 2023-09-01 09:36:21,769 ] 15 root - paths are created for data
+[ 2023-09-01 09:36:21,885 ] 186 werkzeug -  * Debugger is active!
+[ 2023-09-01 09:36:21,889 ] 186 werkzeug -  * Debugger PIN: 859-219-915
+[ 2023-09-01 09:36:34,821 ] 186 werkzeug - 127.0.0.1 - - [01/Sep/2023 09:36:34] "GET / HTTP/1.1" 200 -
+[ 2023-09-01 09:36:34,991 ] 186 werkzeug - 127.0.0.1 - - [01/Sep/2023 09:36:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[ 2023-09-01 09:37:08,682 ] 20 root - data paths created !
+[ 2023-09-01 09:37:08,682 ] 24 root - enter the data ingestion part 2
+[ 2023-09-01 09:37:08,901 ] 26 root - data has read sucessfuly
+[ 2023-09-01 09:37:08,905 ] 41 root - dataframe had created sucessfuly
+[ 2023-09-01 09:37:08,905 ] 43 root - directory has created
+[ 2023-09-01 09:37:09,541 ] 47 root - data ingest sucessfully
+[ 2023-09-01 09:37:09,544 ] 19 root - entered data transformation
+[ 2023-09-01 09:37:09,580 ] 21 root - data read sucessfully for transformation!
+[ 2023-09-01 09:37:09,587 ] 23 root - dropped duplicates
+[ 2023-09-01 09:37:09,596 ] 25 root - data transformed sucess
+[ 2023-09-01 09:37:09,662 ] 28 root - vectorization is sucessfully created
+[ 2023-09-01 09:37:09,663 ] 31 root - pickle file is created
+[ 2023-09-01 09:37:09,836 ] 35 root - recommend process1 started
+[ 2023-09-01 09:37:09,836 ] 36 root - pickle load!
+[ 2023-09-01 09:37:09,836 ] 37 root - pickle loading process sucessful
+[ 2023-09-01 09:37:09,841 ] 15 root - get similarities started
+[ 2023-09-01 09:37:09,844 ] 18 root - vector process 1 completed
+[ 2023-09-01 09:37:09,844 ] 20 root - similarity started
+[ 2023-09-01 09:37:38,594 ] 29 root - similarity process ended
+[ 2023-09-01 09:37:38,617 ] 44 root - recommendations are            name                             artists
+5330     DÁKITI                   Bad Bunny, Jhayco
+9292  Despacito            Luis Fonsi, Daddy Yankee
+7297   Familiar                Liam Payne, J Balvin
+3214   Oh Na Na  Camila Cabello, Myke Towers, Tainy
+8888   Mi Gente             J Balvin, Willy William
+[ 2023-09-01 09:37:38,715 ] 186 werkzeug - 127.0.0.1 - - [01/Sep/2023 09:37:38] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+[ 2023-09-01 09:37:38,781 ] 186 werkzeug - 127.0.0.1 - - [01/Sep/2023 09:37:38] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2023-09-01 09:37:38,784 ] 186 werkzeug - 127.0.0.1 - - [01/Sep/2023 09:37:38] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2023-09-01 09:37:38,799 ] 186 werkzeug - 127.0.0.1 - - [01/Sep/2023 09:37:38] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-09-01 09:37:53,623 ] 20 root - data paths created !
+[ 2023-09-01 09:37:53,624 ] 24 root - enter the data ingestion part 2
+[ 2023-09-01 09:37:53,814 ] 26 root - data has read sucessfuly
+[ 2023-09-01 09:37:53,816 ] 41 root - dataframe had created sucessfuly
+[ 2023-09-01 09:37:53,816 ] 43 root - directory has created
+[ 2023-09-01 09:37:54,398 ] 47 root - data ingest sucessfully
+[ 2023-09-01 09:37:54,403 ] 19 root - entered data transformation
+[ 2023-09-01 09:37:54,432 ] 21 root - data read sucessfully for transformation!
+[ 2023-09-01 09:37:54,437 ] 23 root - dropped duplicates
+[ 2023-09-01 09:37:54,444 ] 25 root - data transformed sucess
+[ 2023-09-01 09:37:54,502 ] 28 root - vectorization is sucessfully created
+[ 2023-09-01 09:37:54,503 ] 31 root - pickle file is created
+[ 2023-09-01 09:37:54,696 ] 35 root - recommend process1 started
+[ 2023-09-01 09:37:54,697 ] 36 root - pickle load!
+[ 2023-09-01 09:37:54,697 ] 37 root - pickle loading process sucessful
+[ 2023-09-01 09:37:54,699 ] 15 root - get similarities started
+[ 2023-09-01 09:37:54,705 ] 18 root - vector process 1 completed
+[ 2023-09-01 09:37:54,705 ] 20 root - similarity started
+[ 2023-09-01 09:38:23,991 ] 29 root - similarity process ended
+[ 2023-09-01 09:38:24,007 ] 44 root - recommendations are            name                             artists
+5330     DÁKITI                   Bad Bunny, Jhayco
+9292  Despacito            Luis Fonsi, Daddy Yankee
+7297   Familiar                Liam Payne, J Balvin
+3214   Oh Na Na  Camila Cabello, Myke Towers, Tainy
+8888   Mi Gente             J Balvin, Willy William
+[ 2023-09-01 09:38:27,582 ] 20 root - data paths created !
+[ 2023-09-01 09:38:27,583 ] 24 root - enter the data ingestion part 2
+[ 2023-09-01 09:38:27,811 ] 26 root - data has read sucessfuly
+[ 2023-09-01 09:38:27,814 ] 41 root - dataframe had created sucessfuly
+[ 2023-09-01 09:38:27,815 ] 43 root - directory has created
+[ 2023-09-01 09:38:28,543 ] 47 root - data ingest sucessfully
+[ 2023-09-01 09:38:28,546 ] 19 root - entered data transformation
+[ 2023-09-01 09:38:28,596 ] 21 root - data read sucessfully for transformation!
+[ 2023-09-01 09:38:28,601 ] 23 root - dropped duplicates
+[ 2023-09-01 09:38:28,611 ] 25 root - data transformed sucess
+[ 2023-09-01 09:38:28,707 ] 28 root - vectorization is sucessfully created
+[ 2023-09-01 09:38:28,708 ] 31 root - pickle file is created
+[ 2023-09-01 09:38:28,928 ] 35 root - recommend process1 started
+[ 2023-09-01 09:38:28,928 ] 36 root - pickle load!
+[ 2023-09-01 09:38:28,929 ] 37 root - pickle loading process sucessful
+[ 2023-09-01 09:38:28,931 ] 15 root - get similarities started
+[ 2023-09-01 09:38:28,937 ] 18 root - vector process 1 completed
+[ 2023-09-01 09:38:28,937 ] 20 root - similarity started
+[ 2023-09-01 09:38:30,858 ] 186 werkzeug - 127.0.0.1 - - [01/Sep/2023 09:38:30] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+[ 2023-09-01 09:38:58,932 ] 29 root - similarity process ended
+[ 2023-09-01 09:38:58,947 ] 44 root - recommendations are            name                             artists
+5330     DÁKITI                   Bad Bunny, Jhayco
+9292  Despacito            Luis Fonsi, Daddy Yankee
+7297   Familiar                Liam Payne, J Balvin
+3214   Oh Na Na  Camila Cabello, Myke Towers, Tainy
+8888   Mi Gente             J Balvin, Willy William
+[ 2023-09-01 09:38:59,169 ] 186 werkzeug - 127.0.0.1 - - [01/Sep/2023 09:38:59] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+[ 2023-09-01 09:38:59,210 ] 186 werkzeug - 127.0.0.1 - - [01/Sep/2023 09:38:59] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2023-09-01 09:38:59,212 ] 186 werkzeug - 127.0.0.1 - - [01/Sep/2023 09:38:59] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2023-09-01 09:38:59,226 ] 186 werkzeug - 127.0.0.1 - - [01/Sep/2023 09:38:59] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-09-01 09:39:19,066 ] 20 root - data paths created !
+[ 2023-09-01 09:39:19,066 ] 24 root - enter the data ingestion part 2
+[ 2023-09-01 09:39:19,241 ] 26 root - data has read sucessfuly
+[ 2023-09-01 09:39:19,245 ] 41 root - dataframe had created sucessfuly
+[ 2023-09-01 09:39:19,246 ] 43 root - directory has created
+[ 2023-09-01 09:39:19,794 ] 47 root - data ingest sucessfully
+[ 2023-09-01 09:39:19,796 ] 19 root - entered data transformation
+[ 2023-09-01 09:39:19,831 ] 21 root - data read sucessfully for transformation!
+[ 2023-09-01 09:39:19,836 ] 23 root - dropped duplicates
+[ 2023-09-01 09:39:19,845 ] 25 root - data transformed sucess
+[ 2023-09-01 09:39:19,914 ] 28 root - vectorization is sucessfully created
+[ 2023-09-01 09:39:19,915 ] 31 root - pickle file is created
+[ 2023-09-01 09:39:20,105 ] 35 root - recommend process1 started
+[ 2023-09-01 09:39:20,106 ] 36 root - pickle load!
+[ 2023-09-01 09:39:20,106 ] 37 root - pickle loading process sucessful
+[ 2023-09-01 09:39:22,323 ] 186 werkzeug - 127.0.0.1 - - [01/Sep/2023 09:39:22] "POST / HTTP/1.1" 200 -
+[ 2023-09-01 09:39:22,356 ] 186 werkzeug - 127.0.0.1 - - [01/Sep/2023 09:39:22] "[36mGET /static/style2.css HTTP/1.1[0m" 304 -
